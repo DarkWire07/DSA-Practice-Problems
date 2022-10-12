@@ -1,55 +1,4 @@
 
-# [LeetCode-Solutions](https://www.youtube.com/playlist?list=PLlUdLC2oSxz2Y1g6V8oRCzauOvbnKl2Ee)
-
-<p align="center">
- <h2>Join Us on Telegram & Facebook</h2>
- <a href="https://t.me/joinchat/K5RKXyxYoW5iYzU1">
-       <img align="left" height=100 src="https://media.giphy.com/media/wlR4kWTnwEyY8RwHKM/giphy.gif">
- </a>
- <a href="https://www.facebook.com/groups/codedecks">
-       <img align="left" height=100 src="https://static1.squarespace.com/static/5994a0f17131a5643f407c37/t/5bf9070c0ebbe88c3392b17c/1543047009836/facebook_button.png">
-   </a>
-   <a href="https://www.youtube.com/c/codedecks?sub_confirmation=1">
-       <img align="right" height=400 src="https://media.giphy.com/media/XeXtOVyYF961jhiPbt/giphy.gif">
-   </a>
- <p/>
-
-<img src="https://sloc.xyz/github/codedecks-in/LeetCode-Solutions" alt="LOC"/> <a href="https://github.com/codedecks-in/LeetCode-Solutions/stargazers"><img src="https://img.shields.io/github/stars/codedecks-in/LeetCode-Solutions" alt="Stars Badge"/></a>
-<a href="https://github.com/codedecks-in/LeetCode-Solutions/network/members"><img src="https://img.shields.io/github/forks/codedecks-in/LeetCode-Solutions" alt="Forks Badge"/></a>
-<a href="https://github.com/codedecks-in/LeetCode-Solutions/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/codedecks-in/LeetCode-Solutions?color=2b9348"></a>
-
-<!--[![GitHub issues by-label](https://img.shields.io/github/issues-pr-closed-raw/codedecks-in/LeetCode-Solutions.svg)](https://github.com/codedecks-in/LeetCode-Solutions/pulls?q=is%3Apr+is%3Aclosed)
-<!--[![GitHub issues by-label](https://img.shields.io/github/issues-pr/codedecks-in/LeetCode-Solutions.svg)](https://github.com/codedecks-in/LeetCode-Solutions/pulls?q=is%3Aopen+is%3Apr)-->
-
----
-
-![Language](https://img.shields.io/badge/language-Python%20%2F%20Java%20%2F%20JS%20%2F%20C++-orange.svg)&nbsp;
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)&nbsp;
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
-[![Discord](https://img.shields.io/discord/463752820026376202.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/umYVGnvvAg)
-[![first-timers-only-friendly](http://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://code.publiclab.org#r=all)
-
-<!--[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-<a href="https://github.com/codedecks-in/LeetCode-Solutions/pulls"><img src="https://img.shields.io/github/issues-pr/codedecks-in/LeetCode-Solutions" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/codedecks-in/LeetCode-Solutions/issues"><img src="https://img.shields.io/github/issues/codedecks-in/LeetCode-Solutions" alt="Issues Badge"/></a>
--->
-
-### Got stuck in a LeetCode question? 
-### This repository will help you by providing approach of solving the problems from LeetCode platform.
-
-### [Contributors](#contributors) helped us in providing these Awesome solutions.
-
-### If you want to contribute, please create a Pull Request. If you are new to Github please check pull request procedure ---> [PR process](https://github.com/codedecks-in/LeetCode-Solutions/blob/master/PULL_REQUEST_PROCESS.md)
-
-Check out ---> [Sample PR](https://github.com/codedecks-in/LeetCode-Solutions/pull/3)
-
-- There are new LeetCode questions every week. I'll keep updating for full summary and better solutions.
-- For more challenging problem solutions, you can also see our [HackerRank-Solutions](https://github.com/codedecks-in/HackerRank-Solutions), [ProjectEuler](https://github.com/codedecks-in/ProjectEuler-Solutions) repositories.
-- Hope you enjoy the journey of learning data structures and algorithms.
-- Notes: "🔒" means your subscription of [LeetCode premium membership](https://leetcode.com/subscribe/) is required for reading the question.
-
-
-
 # Algorithms
 
 - [Bit Manipulation](#bit-manipulation)
@@ -77,6 +26,18 @@ Check out ---> [Sample PR](https://github.com/codedecks-in/LeetCode-Solutions/pu
 - [Simulation](#simulation)
 - [Design](#design)
 - [Concurrency](#concurrency)
+
+# Bit Manipulation
+
+| #    | Title                                                                                 | Solution                                                                                                       | Time   | Space  | Difficulty | Tag | Tutorial                                 |
+| ---- | ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ------ | ------ | ---------- | --- | ---------------------------------------- |
+| 136  | [Single Number](https://leetcode.com/problems/single-number/)                         | [Java](./Java/single-number.java) <br> [Python](./Python/single-number.py) <br> [C++](./C++/Single-Number.cpp) <br> [JavaScript](./JavaScript/single-number.js) | _O(n)_ | _O(1)_ | Easy       |     | Using XOR                                |
+| 137  | [Single Number II](https://leetcode.com/problems/single-number-ii/)                   | [Python](./Python/single-number-ii.py)<br/> [C++](./C++/Single-Number-II.cpp)                                  | _O(n)_ | _O(1)_ | Medium     |     |                                          |
+| 260  | [Single Number III](https://leetcode.com/problems/single-number-iii/)                 | [Python](./Python/single-number-iii.py) <br/> [C++](./C++/Single-Number-III.cpp) | _O(n)_ | _O(1)_ | Medium     |     |                                          |
+| 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | [Java](./Java/Sum_of_two_integers.java) | _O(1)_ | _O(1)_ | Medium     | 
+| 476  | [Number Complement](https://leetcode.com/problems/number-complement/)                 | [Java](./Java/number-complement.java) <br/> [C++](./C++/Number-Complement.cpp)                                 | _O(1)_ | _O(1)_ | Easy       |     | [Tutorial](https://youtu.be/6bp5V-O3zts) |
+| 520  | [Detect Capital Use](https://leetcode.com/problems/detect-capital/)                   | [Python](./Python/detect-capital.py) <br/> [C++](./C++/Detect-Capital.cpp)                                     | _O(n)_ | _O(1)_ | Easy       |     |                                          |
+| 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) | [Java](./Java/xor-op-in-array.java) <br/> [C++](./C++/xor-operation-in-an-array.cpp)                                                                         | _O(n)_ | _O(1)_ | Easy       |     | Using XOR                                |
 
 
 
